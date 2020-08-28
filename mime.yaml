@@ -1,0 +1,96 @@
+
+text.plain:
+  mime: "text/plain"
+  name: "text file"
+  noneof: [0, 1, 2, 3]
+
+
+image.jpeg:
+  mime: "image/jpeg"
+  name: "JPEG image"
+  matchbytes: [255, 216, 255]
+
+
+image.gif:
+  mime: "image/gif"
+  name: "GIF image"
+  matchbytes: [71, 73, 70, 56, 57]
+
+image.png:
+  mime: "image/png"
+  name: "PNG image"
+  matchbytes: [137, 80, 78, 71, 13, 10]
+
+
+application.x_shockwave_flash:
+  mime: "application/x-shockwave-flash"
+  name: "Macromedia Flash"
+  matchbytes: [67, 87, 83, 17]
+
+
+application.vnd.microsoft.portable_executable:
+  mime: "application/vnd.microsoft.portable-executable"
+  name: "PE32 executable"
+  matchbytes: [77, 90, 144, 0]
+
+application.x-msdownload:
+  mime: "application/x-msdownload"
+  name: "PE32 executable (DLL)"
+  matchbytes: [77, 90, 120, 0]
+
+
+application.x_7z_compressed:
+  mime: "application/x-7z-compressed"
+  name: "7-zip archive"
+  matchbytes: [55, 122, 188, 175, 39, 28, 0]
+
+
+application.x_bzip2:
+  mime: "application/x-bzip2"
+  name: "bzip2 compressed file"
+  matchbytes: [66, 90, 104, 57]
+
+
+application.x_gzip:
+  mime: "application/x-gzip"
+  name: "gzip compressed file"
+  matchbytes: [31, 139, 8, 8, 60]
+
+
+application.x_rar:
+  mime: "application/x-rar"
+  name: "RAR archive"
+  matchbytes: [82, 97, 114, 33, 26, 7, 0]
+
+
+application.x_xz:
+  mime: "application/x-xz"
+  name: "XZ compressed file"
+  matchbytes: [253, 55, 122, 88, 90, 0]
+
+
+application.zip:
+  mime: "application/zip"
+  name: "Zip archive"
+  matchbytes: [80, 75, 3, 4, 20]
+
+
+application.x_gzip:
+  mime: "application/x-gzip"
+  name: "gzip compressed file"
+  matchbytes: [31, 139, 8, 8]
+
+
+
+application.pdf:
+  mime: "application/pdf"
+  name: "PDF document"
+  matchbytes: [37, 80, 68, 70, 45]
+
+text.rtf:
+  mime: "text/rtf"
+  name: "RTF Rich Text Format document"
+  matchbytes: [123, 92, 114, 116, 102]
+
+
+
